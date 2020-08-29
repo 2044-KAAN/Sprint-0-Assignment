@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clarusway Survey Form</title>
+    <link rel="stylesheet" href="Sprint-0_Assigment.css">  
+</head>
+  <body>
+    <div id="header">
+    <h1 >Clarusway Survey Form</h1>
+    <p>Thank you for taking the time to help us improve the platform</p>
+    </div>
+    
+    <div id="form">
+    <form action="result.html" method="GET" name="myform" >
+      <br />
+      <label for="Name">Name</label>
+      <br />
+      <input type="text" name="Name" id="Name" />
+      <br /><br />
+      <label for="Surname"> Surname</label>
+      <br />
+      <input type="text" name="Surname" id="Surname" />
+      <br /><br />
+      <label for="Email">Email</label>
+      <br />
+      <input type="email" name="Email" id="Email" />
+      <br />
+      <p>Which option best describes your current role?</p>
+      <select name="Select Current role" id="role">
+        <option value="Select Current role ">Select current role</option>
+      </select>
+      <p>Would you recommend Clarusway to a friend?</p>
+      <input type="radio" name="friend" value="Definitely,Yes" >Definitely,Yes <br>
+      <input type="radio" name="friend" value="Maybe" >Maybe <br>
+      <input type="radio" name="friend" value="Not sure" >Not sure <br>
+      <input type="radio" name="friend" value="Definitely,No" >Definitely,No <br>
+      <p>What is your favorite feature of Clarusway?</p>
+      <select name="Select Current role" id="role">
+        <option value="Select an option ">Select an option</option>
+      </select>
+      <p>What would you like to see improved(Check all that apply)</p>
+      <input type="checkbox" name="apply" value="Front"> Front-end Projects <br>
+      <input type="checkbox" name="apply" value="Front"> Back-end Projects <br>
+      <input type="checkbox" name="apply" value="Front"> Data Sciense <br>
+      <input type="checkbox" name="apply" value="Front"> Additional Courses <br>
+      <p>Any comments or suggestions?</p>
+      <textarea name="comment" id="comment" cols="20 rows="3">Enter your Comment</textarea><br>
+      <input type="submit" name="submit" value="submit" >
+
+    </form>
+</div>
+  </body>
+</html>
